@@ -24,6 +24,14 @@ class RepositoryListView: UITableView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+
+    @objc func refresh() {
+        DispatchQueue.main.async {[weak self] in
+            guard let self = self else { return }
+            self.refreshControl?.endRefreshing()
+            //network 타기
+        }
+    }
     
     private func bind() {
         cellData
@@ -43,6 +51,13 @@ class RepositoryListView: UITableView {
         self.separatorStyle = .singleLine
         self.backgroundColor = .white
         self.rowHeight = 100
+        
+        self.refreshControl = UIRefreshControl()
+        let refreshControl = self.refreshControl!
+        refreshControl.backgroundColor = .white
+        refreshControl.tintColor = .darkGray
+        refreshControl.attributedTitle = NSAttributedString(string: "당겨서 새로고침")
+        refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
     }
 }
 

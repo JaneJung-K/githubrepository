@@ -32,21 +32,8 @@ class RepositoryListViewController: UIViewController {
         super.viewDidLoad()
         title = organization + " Repositories"
         view.backgroundColor = .white
-//        self.refreshControl = UIRefreshControl()
-//        let refreshControl = self.refreshControl!
-//        refreshControl.backgroundColor = .white
-//        refreshControl.tintColor = .darkGray
-//        refreshControl.attributedTitle = NSAttributedString(string: "당겨서 새로고침")
-//        refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
 
     }
-    
-//    @objc func refresh() {
-//        DispatchQueue.global(qos: .background).async {[weak self] in
-//            guard let self = self else { return }
-//            self.fetchRepositories(of: self.organization)
-//        }
-//    }
     
     private func bind() {
         let repositoryResult = searchBar.shouldLoadResult
@@ -81,6 +68,7 @@ class RepositoryListViewController: UIViewController {
                     }
                     
                 }
+    
         
         let cellData = repositoryValue
             .map { repository -> [RopositoryData] in
