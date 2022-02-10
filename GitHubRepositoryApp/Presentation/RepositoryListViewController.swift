@@ -51,11 +51,13 @@ class RepositoryListViewController: UIViewController {
 //    }
     
     private func bind() {
-        let repositoryResult = searchBar.shouldLoadResult
-            .flatMapLatest{
-                self.serviceManager.fetchRepositories(query: $0)
-            }
-            .share()
+//        let repositoryResult = searchBar.shouldLoadResult
+//            .flatMapLatest{
+//                self.serviceManager.fetchRepositories(query: $0)
+//            }
+//            .share()
+        
+        let repositoryResult = serviceManager.fetchRepositories(query: organization)
         
         let repositoryValue = repositoryResult
             .map { data -> [Repository]? in
@@ -65,6 +67,7 @@ class RepositoryListViewController: UIViewController {
                 return value
             }
             .filter {  $0 != nil }
+            .asObservable()
         
         let repositoryError = repositoryResult
             .map { data -> String? in

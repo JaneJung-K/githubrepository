@@ -12,7 +12,7 @@ import UIKit
 class RepositoryListView: UITableView {
     let disposeBag = DisposeBag()
     
-    let cellData = PublishSubject<[RopositoryData]>()
+    var cellData = PublishSubject<[RopositoryData]>()
     
     override init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
