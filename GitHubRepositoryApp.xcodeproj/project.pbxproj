@@ -74,10 +74,10 @@
 		7D01422226D4B5900048735F /* GitHubRepositoryApp */ = {
 			isa = PBXGroup;
 			children = (
-				A3B17E9027B3481F001FA5F8 /* Network */,
 				7D01422326D4B5900048735F /* AppDelegate.swift */,
 				7D01422526D4B5900048735F /* SceneDelegate.swift */,
 				A3B17E9527B389B3001FA5F8 /* Model */,
+				A3B17E9027B3481F001FA5F8 /* Network */,
 				A3B17E9827B389DD001FA5F8 /* Presentation */,
 				7D01422C26D4B5920048735F /* Assets.xcassets */,
 				7D01422E26D4B5920048735F /* LaunchScreen.storyboard */,

@@ -41,7 +41,7 @@ class RepositoryListView: UITableView {
         self.backgroundColor = .white
         self.register(RepositoryListCell.self, forCellReuseIdentifier: "BlogListCell")
         self.separatorStyle = .singleLine
-        self.backgroundColor = .red
+        self.backgroundColor = .white
         self.rowHeight = 100
     }
 }
