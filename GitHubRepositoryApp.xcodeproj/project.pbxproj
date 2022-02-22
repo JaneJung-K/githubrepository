@@ -17,6 +17,9 @@
 		7D01424226D4B6D40048735F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7D01424126D4B6D40048735F /* SnapKit */; };
 		7D01424526D4C2550048735F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7D01424426D4C2550048735F /* RxCocoa */; };
 		7D01424726D4C2550048735F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D01424626D4C2550048735F /* RxSwift */; };
+		A10C52B019801820B6FC6A90 /* Pods_GitHubRepositoryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1726D25EAF637BC1F280EA35 /* Pods_GitHubRepositoryApp.framework */; };
+		A345967C27C49ED90090580F /* GitHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345967B27C49ED90090580F /* GitHub.swift */; };
+		A3AC886027C4A2D7002B16D4 /* MoyaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AC885F27C4A2D7002B16D4 /* MoyaExample.swift */; };
 		A3B17E9227B3482D001FA5F8 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B17E9127B3482D001FA5F8 /* ApiManager.swift */; };
 		A3B17E9427B34B50001FA5F8 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B17E9327B34B50001FA5F8 /* NetworkError.swift */; };
 		A3B17E9727B389C3001FA5F8 /* RepositoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B17E9627B389C3001FA5F8 /* RepositoryData.swift */; };
@@ -25,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1726D25EAF637BC1F280EA35 /* Pods_GitHubRepositoryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubRepositoryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		410B570052138D3F01555A41 /* Pods-GitHubRepositoryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepositoryApp.release.xcconfig"; path = "Target Support Files/Pods-GitHubRepositoryApp/Pods-GitHubRepositoryApp.release.xcconfig"; sourceTree = "<group>"; };
 		7D01422026D4B5900048735F /* GitHubRepositoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubRepositoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D01422326D4B5900048735F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D01422526D4B5900048735F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,11 +39,14 @@
 		7D01423726D4B5BB0048735F /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
 		7D01423926D4B5D90048735F /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		7D01423B26D4B6050048735F /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
+		A345967B27C49ED90090580F /* GitHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub.swift; sourceTree = "<group>"; };
+		A3AC885F27C4A2D7002B16D4 /* MoyaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaExample.swift; sourceTree = "<group>"; };
 		A3B17E9127B3482D001FA5F8 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		A3B17E9327B34B50001FA5F8 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		A3B17E9627B389C3001FA5F8 /* RepositoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryData.swift; sourceTree = "<group>"; };
 		A3B17E9927B38A0E001FA5F8 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		A3B17E9B27B38A79001FA5F8 /* RepositoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListView.swift; sourceTree = "<group>"; };
+		C42A80DED03BB67D82B0AAA3 /* Pods-GitHubRepositoryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepositoryApp.debug.xcconfig"; path = "Target Support Files/Pods-GitHubRepositoryApp/Pods-GitHubRepositoryApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 				7D01424726D4C2550048735F /* RxSwift in Frameworks */,
 				7D01424526D4C2550048735F /* RxCocoa in Frameworks */,
 				7D01424226D4B6D40048735F /* SnapKit in Frameworks */,
+				A10C52B019801820B6FC6A90 /* Pods_GitHubRepositoryApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +69,8 @@
 			children = (
 				7D01422226D4B5900048735F /* GitHubRepositoryApp */,
 				7D01422126D4B5900048735F /* Products */,
+				DF6528BC6A0BD4764D90E7C2 /* Pods */,
+				BBBBE84906FA63D4212409FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +102,7 @@
 			children = (
 				A3B17E9127B3482D001FA5F8 /* ApiManager.swift */,
 				A3B17E9327B34B50001FA5F8 /* NetworkError.swift */,
+				A345967B27C49ED90090580F /* GitHub.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -109,6 +121,7 @@
 			children = (
 				7D01423726D4B5BB0048735F /* RepositoryListViewController.swift */,
 				A3B17E9D27B38E19001FA5F8 /* SubComponents */,
+				A3AC885F27C4A2D7002B16D4 /* MoyaExample.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -123,6 +136,23 @@
 			path = SubComponents;
 			sourceTree = "<group>";
 		};
+		BBBBE84906FA63D4212409FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1726D25EAF637BC1F280EA35 /* Pods_GitHubRepositoryApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF6528BC6A0BD4764D90E7C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C42A80DED03BB67D82B0AAA3 /* Pods-GitHubRepositoryApp.debug.xcconfig */,
+				410B570052138D3F01555A41 /* Pods-GitHubRepositoryApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D01423426D4B5920048735F /* Build configuration list for PBXNativeTarget "GitHubRepositoryApp" */;
 			buildPhases = (
+				90DB6A17B9C71620F324321A /* [CP] Check Pods Manifest.lock */,
 				7D01421C26D4B5900048735F /* Sources */,
 				7D01421D26D4B5900048735F /* Frameworks */,
 				7D01421E26D4B5900048735F /* Resources */,
+				CBBF7221D9C77B16C20CA482 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +228,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90DB6A17B9C71620F324321A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitHubRepositoryApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBBF7221D9C77B16C20CA482 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitHubRepositoryApp/Pods-GitHubRepositoryApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitHubRepositoryApp/Pods-GitHubRepositoryApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitHubRepositoryApp/Pods-GitHubRepositoryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D01421C26D4B5900048735F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -210,6 +284,8 @@
 				A3B17E9A27B38A0E001FA5F8 /* SearchBar.swift in Sources */,
 				7D01423A26D4B5D90048735F /* Repository.swift in Sources */,
 				A3B17E9227B3482D001FA5F8 /* ApiManager.swift in Sources */,
+				A345967C27C49ED90090580F /* GitHub.swift in Sources */,
+				A3AC886027C4A2D7002B16D4 /* MoyaExample.swift in Sources */,
 				7D01423C26D4B6050048735F /* RepositoryListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +424,7 @@
 		};
 		7D01423526D4B5920048735F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42A80DED03BB67D82B0AAA3 /* Pods-GitHubRepositoryApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -367,6 +444,7 @@
 		};
 		7D01423626D4B5920048735F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410B570052138D3F01555A41 /* Pods-GitHubRepositoryApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
