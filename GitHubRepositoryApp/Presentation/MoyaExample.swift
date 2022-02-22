@@ -17,12 +17,12 @@ class MoyaExampleViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .yellow
         provider.request(.repos(org: "apple")) { [weak self] result in
-            guard let self = self else { return }
+//            guard let self = self else { return }
             
             switch result {
             case .success(let response):
                 do {
-                    try JSONDecoder().decode([Repository].self, from: response.data)
+                    try response.map(GitHubResponse<[Repository]>.self)
                 } catch {
                     print(error)
                 }

@@ -20,6 +20,7 @@
 		A10C52B019801820B6FC6A90 /* Pods_GitHubRepositoryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1726D25EAF637BC1F280EA35 /* Pods_GitHubRepositoryApp.framework */; };
 		A345967C27C49ED90090580F /* GitHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345967B27C49ED90090580F /* GitHub.swift */; };
 		A3AC886027C4A2D7002B16D4 /* MoyaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AC885F27C4A2D7002B16D4 /* MoyaExample.swift */; };
+		A3AC886227C4BD80002B16D4 /* CodableResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AC886127C4BD80002B16D4 /* CodableResponses.swift */; };
 		A3B17E9227B3482D001FA5F8 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B17E9127B3482D001FA5F8 /* ApiManager.swift */; };
 		A3B17E9427B34B50001FA5F8 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B17E9327B34B50001FA5F8 /* NetworkError.swift */; };
 		A3B17E9727B389C3001FA5F8 /* RepositoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B17E9627B389C3001FA5F8 /* RepositoryData.swift */; };
@@ -41,6 +42,7 @@
 		7D01423B26D4B6050048735F /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
 		A345967B27C49ED90090580F /* GitHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub.swift; sourceTree = "<group>"; };
 		A3AC885F27C4A2D7002B16D4 /* MoyaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaExample.swift; sourceTree = "<group>"; };
+		A3AC886127C4BD80002B16D4 /* CodableResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableResponses.swift; sourceTree = "<group>"; };
 		A3B17E9127B3482D001FA5F8 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		A3B17E9327B34B50001FA5F8 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		A3B17E9627B389C3001FA5F8 /* RepositoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryData.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				7D01423926D4B5D90048735F /* Repository.swift */,
 				A3B17E9627B389C3001FA5F8 /* RepositoryData.swift */,
+				A3AC886127C4BD80002B16D4 /* CodableResponses.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				7D01423826D4B5BB0048735F /* RepositoryListViewController.swift in Sources */,
 				A3B17E9A27B38A0E001FA5F8 /* SearchBar.swift in Sources */,
 				7D01423A26D4B5D90048735F /* Repository.swift in Sources */,
+				A3AC886227C4BD80002B16D4 /* CodableResponses.swift in Sources */,
 				A3B17E9227B3482D001FA5F8 /* ApiManager.swift in Sources */,
 				A345967C27C49ED90090580F /* GitHub.swift in Sources */,
 				A3AC886027C4A2D7002B16D4 /* MoyaExample.swift in Sources */,
